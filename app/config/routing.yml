@@ -1,0 +1,6 @@
+netgusto_hello:
+    resource: "@NetgustoHelloBundle/Resources/config/routing.yml"
+    prefix: /
+
+bootcamp:
+    resource: "@NetgustoBootCampBundle/Resources/config/routing.yml"

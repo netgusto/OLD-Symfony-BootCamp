@@ -4,8 +4,49 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "0f5bf28fac35560dbdb2e597d32df056",
+    "hash": "e6984ef31952d66f95900ac9eb51a88d",
     "packages": [
+        {
+            "name": "brianium/habitat",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/brianium/habitat.git",
+                "reference": "d0979e3bb379cbc78ecb42b3ac171bc2b7e06d96"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/brianium/habitat/zipball/d0979e3bb379cbc78ecb42b3ac171bc2b7e06d96",
+                "reference": "d0979e3bb379cbc78ecb42b3ac171bc2b7e06d96",
+                "shasum": ""
+            },
+            "require-dev": {
+                "monolog/monolog": ">=1.5.0",
+                "phpunit/phpunit": ">=3.7.21"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Habitat": [
+                        "src/"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Brian",
+                    "email": "scaturrob@gmail.com",
+                    "homepage": "http://brianscaturro.com",
+                    "role": "Lead"
+                }
+            ],
+            "description": "A dependable php environment",
+            "time": "2013-06-08 04:42:29"
+        },
         {
             "name": "doctrine/annotations",
             "version": "v1.2.0",
@@ -869,6 +910,187 @@
                 "psr-3"
             ],
             "time": "2014-06-04 16:30:04"
+        },
+        {
+            "name": "netgusto/autoroute-bundle",
+            "version": "1.0.1",
+            "target-dir": "Netgusto/AutorouteBundle",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/netgusto/Symfony-AutorouteBundle.git",
+                "reference": "69ef1ae29554864f56520ec8a058c4f4967fea03"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/netgusto/Symfony-AutorouteBundle/zipball/69ef1ae29554864f56520ec8a058c4f4967fea03",
+                "reference": "69ef1ae29554864f56520ec8a058c4f4967fea03",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3",
+                "symfony/framework-bundle": "~2.4"
+            },
+            "type": "symfony-bundle",
+            "autoload": {
+                "psr-0": {
+                    "Netgusto\\AutorouteBundle": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Net Gusto",
+                    "email": "contact@netgusto.com"
+                }
+            ],
+            "description": "Symfony2 Autoroute Bundle",
+            "homepage": "https://github.com/netgusto/Symfony-AutorouteBundle",
+            "keywords": [
+                "autoroute",
+                "symfony"
+            ],
+            "time": "2014-07-22 12:24:44"
+        },
+        {
+            "name": "netgusto/bootcamp-bundle",
+            "version": "1.0.0",
+            "target-dir": "Netgusto/BootCampBundle",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/netgusto/Symfony-BootCampBundle.git",
+                "reference": "74b05f7aeec1f14cad054415b7849241c9848127"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/netgusto/Symfony-BootCampBundle/zipball/74b05f7aeec1f14cad054415b7849241c9848127",
+                "reference": "74b05f7aeec1f14cad054415b7849241c9848127",
+                "shasum": ""
+            },
+            "require": {
+                "brianium/habitat": "v1.0.0",
+                "netgusto/autoroute-bundle": "1.0.1",
+                "netgusto/devserver-bundle": "1.1.0",
+                "netgusto/webvendor-bundle": "1.0.0",
+                "php": ">=5.3.3",
+                "symfony/framework-bundle": "~2.4"
+            },
+            "type": "symfony-bundle",
+            "autoload": {
+                "psr-0": {
+                    "Netgusto\\BootCampBundle": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Net Gusto",
+                    "email": "contact@netgusto.com"
+                }
+            ],
+            "description": "Symfony2 BootCamp Bundle",
+            "homepage": "https://github.com/netgusto/Symfony-BootCampBundle",
+            "keywords": [
+                "bootcamp",
+                "paas",
+                "symfony"
+            ],
+            "time": "2014-07-22 19:02:32"
+        },
+        {
+            "name": "netgusto/devserver-bundle",
+            "version": "1.1.0",
+            "target-dir": "Netgusto/DevServerBundle",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/netgusto/Symfony-DevServerBundle.git",
+                "reference": "daed98c2d4334ef7d64a930d3d8002d200da3edf"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/netgusto/Symfony-DevServerBundle/zipball/daed98c2d4334ef7d64a930d3d8002d200da3edf",
+                "reference": "daed98c2d4334ef7d64a930d3d8002d200da3edf",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3",
+                "symfony/framework-bundle": "~2.4"
+            },
+            "type": "symfony-bundle",
+            "autoload": {
+                "psr-0": {
+                    "Netgusto\\DevServerBundle": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "almasaeed2010",
+                    "email": "contact@netgusto.com"
+                }
+            ],
+            "description": "Development server console command with subdomain support, and automatic assets compilation.",
+            "homepage": "https://github.com/netgusto/Symfony-DevServerBundle",
+            "keywords": [
+                "assets",
+                "development",
+                "server",
+                "subdomain",
+                "symfony"
+            ],
+            "time": "2014-06-07 18:11:41"
+        },
+        {
+            "name": "netgusto/webvendor-bundle",
+            "version": "1.0.0",
+            "target-dir": "Netgusto/WebVendorBundle",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/netgusto/Symfony-WebVendorBundle.git",
+                "reference": "bfc2d952581d86c9961e084caa9b40ba279d5fe2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/netgusto/Symfony-WebVendorBundle/zipball/bfc2d952581d86c9961e084caa9b40ba279d5fe2",
+                "reference": "bfc2d952581d86c9961e084caa9b40ba279d5fe2",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3",
+                "symfony/framework-bundle": "~2.4"
+            },
+            "type": "symfony-bundle",
+            "autoload": {
+                "psr-0": {
+                    "Netgusto\\WebVendorBundle": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Net Gusto",
+                    "email": "contact@netgusto.com"
+                }
+            ],
+            "description": "Symfony2 Web Vendor Bundle",
+            "homepage": "https://github.com/netgusto/Symfony-WebVendorBundle",
+            "keywords": [
+                "asset",
+                "symfony",
+                "vendor"
+            ],
+            "time": "2014-07-22 13:04:07"
         },
         {
             "name": "psr/log",

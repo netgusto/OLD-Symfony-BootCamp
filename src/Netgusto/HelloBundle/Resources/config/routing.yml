@@ -1,0 +1,3 @@
+netgusto_hello_homepage:
+    path: /
+    defaults: { _controller: NetgustoHelloBundle:Default:index }
