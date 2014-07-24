@@ -17,6 +17,7 @@ class AppKernel extends Kernel
             new Doctrine\Bundle\DoctrineBundle\DoctrineBundle(),
             new Sensio\Bundle\FrameworkExtraBundle\SensioFrameworkExtraBundle(),
             new Netgusto\HelloBundle\NetgustoHelloBundle(),
+            new Netgusto\ParameterTouchBundle\NetgustoParameterTouchBundle(),
         );
 
         new Netgusto\BootCampBundle\NetgustoBootCampBundle($bundles);

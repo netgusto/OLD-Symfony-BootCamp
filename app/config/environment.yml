@@ -3,4 +3,6 @@ parameters:
     environment.application.defaults:
 
         # Application defaults parameters
-        INITIALIZATION_MODE: FALSE
+        
+        INITIALIZATION_MODE: TRUE
+        # DATABASE_URL: mysql://root:@127.0.0.1/bootcamp

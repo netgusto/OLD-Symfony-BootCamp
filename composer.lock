@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "e6984ef31952d66f95900ac9eb51a88d",
+    "hash": "8f41a006c652ee0911dd1bafe09756b3",
     "packages": [
         {
             "name": "brianium/habitat",
@@ -671,58 +671,6 @@
             "time": "2014-07-11 03:05:53"
         },
         {
-            "name": "incenteev/composer-parameter-handler",
-            "version": "v2.1.0",
-            "target-dir": "Incenteev/ParameterHandler",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/Incenteev/ParameterHandler.git",
-                "reference": "143272a0a09c62616a3c8011fc165a10c6b35241"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/Incenteev/ParameterHandler/zipball/143272a0a09c62616a3c8011fc165a10c6b35241",
-                "reference": "143272a0a09c62616a3c8011fc165a10c6b35241",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.3",
-                "symfony/yaml": "~2.0"
-            },
-            "require-dev": {
-                "composer/composer": "1.0.*@dev",
-                "phpspec/prophecy-phpunit": "~1.0",
-                "symfony/filesystem": "~2.2"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "2.1.x-dev"
-                }
-            },
-            "autoload": {
-                "psr-0": {
-                    "Incenteev\\ParameterHandler": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Christophe Coevoet",
-                    "email": "stof@notk.org"
-                }
-            ],
-            "description": "Composer script handling your ignored parameter file",
-            "homepage": "https://github.com/Incenteev/ParameterHandler",
-            "keywords": [
-                "parameters management"
-            ],
-            "time": "2013-12-07 10:10:39"
-        },
-        {
             "name": "jdorn/sql-formatter",
             "version": "v1.2.17",
             "source": {
@@ -956,17 +904,17 @@
         },
         {
             "name": "netgusto/bootcamp-bundle",
-            "version": "1.0.0",
+            "version": "1.0.1",
             "target-dir": "Netgusto/BootCampBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/netgusto/Symfony-BootCampBundle.git",
-                "reference": "74b05f7aeec1f14cad054415b7849241c9848127"
+                "reference": "9b6e58bd73b9f7b89b7840a164a6d47f2556b553"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/netgusto/Symfony-BootCampBundle/zipball/74b05f7aeec1f14cad054415b7849241c9848127",
-                "reference": "74b05f7aeec1f14cad054415b7849241c9848127",
+                "url": "https://api.github.com/repos/netgusto/Symfony-BootCampBundle/zipball/9b6e58bd73b9f7b89b7840a164a6d47f2556b553",
+                "reference": "9b6e58bd73b9f7b89b7840a164a6d47f2556b553",
                 "shasum": ""
             },
             "require": {
@@ -1000,7 +948,7 @@
                 "paas",
                 "symfony"
             ],
-            "time": "2014-07-22 19:02:32"
+            "time": "2014-07-24 09:28:30"
         },
         {
             "name": "netgusto/devserver-bundle",
