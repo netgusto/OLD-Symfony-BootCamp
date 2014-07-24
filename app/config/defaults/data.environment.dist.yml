@@ -1,0 +1,18 @@
+parameters:
+    environment:
+        
+        # ####
+        # Uncomment the line below (remove the #) to disable INITIALIZATION_MODE
+        # When INITIALIZATION_MODE is TRUE, the application is locked on Init
+        # When INITIALIZATION_MODE is FALSE, the init wizard is disabled
+        # ####
+        
+        # INITIALIZATION_MODE: FALSE
+
+
+        # ####
+        # Uncomment and define properly the line below to point your database
+        # Valid drivers are: mysql://, mssql://, postgres:// and sqlite://
+        # ####
+
+        # DATABASE_URL: mysql://user:password@hostname/dbname

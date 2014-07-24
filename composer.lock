@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "4c2e85f151f17ac94184b89e19c47bc3",
+    "hash": "e7434c524fcd10f21ffdfabc76512970",
     "packages": [
         {
             "name": "brianium/habitat",
@@ -904,24 +904,24 @@
         },
         {
             "name": "netgusto/bootcamp-bundle",
-            "version": "1.0.4",
+            "version": "1.0.5",
             "target-dir": "Netgusto/BootCampBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/netgusto/Symfony-BootCampBundle.git",
-                "reference": "692f772f4039be401e7c609038a210e7efed08ae"
+                "reference": "1787139e321da3e3194889a8f2d1146c8b802065"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/netgusto/Symfony-BootCampBundle/zipball/692f772f4039be401e7c609038a210e7efed08ae",
-                "reference": "692f772f4039be401e7c609038a210e7efed08ae",
+                "url": "https://api.github.com/repos/netgusto/Symfony-BootCampBundle/zipball/1787139e321da3e3194889a8f2d1146c8b802065",
+                "reference": "1787139e321da3e3194889a8f2d1146c8b802065",
                 "shasum": ""
             },
             "require": {
                 "brianium/habitat": "v1.0.0",
                 "netgusto/autoroute-bundle": "1.0.1",
                 "netgusto/devserver-bundle": "1.1.0",
-                "netgusto/parametertouch-bundle": "1.0.0",
+                "netgusto/parametertouch-bundle": "1.0.1",
                 "netgusto/webvendor-bundle": "1.0.0",
                 "php": ">=5.3.3",
                 "symfony/framework-bundle": "~2.4"
@@ -949,7 +949,7 @@
                 "paas",
                 "symfony"
             ],
-            "time": "2014-07-24 10:41:21"
+            "time": "2014-07-24 12:40:17"
         },
         {
             "name": "netgusto/devserver-bundle",
@@ -999,17 +999,17 @@
         },
         {
             "name": "netgusto/parametertouch-bundle",
-            "version": "1.0.0",
+            "version": "1.0.1",
             "target-dir": "Netgusto/ParameterTouchBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/netgusto/Symfony-ParameterTouchBundle.git",
-                "reference": "6120dec78555cff46956c98c05730d7eceb4cc6b"
+                "reference": "210affb5ff74ad14c04d218744f9995442a91c27"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/netgusto/Symfony-ParameterTouchBundle/zipball/6120dec78555cff46956c98c05730d7eceb4cc6b",
-                "reference": "6120dec78555cff46956c98c05730d7eceb4cc6b",
+                "url": "https://api.github.com/repos/netgusto/Symfony-ParameterTouchBundle/zipball/210affb5ff74ad14c04d218744f9995442a91c27",
+                "reference": "210affb5ff74ad14c04d218744f9995442a91c27",
                 "shasum": ""
             },
             "require": {
@@ -1037,7 +1037,7 @@
             "keywords": [
                 "symfony"
             ],
-            "time": "2014-07-24 10:35:02"
+            "time": "2014-07-24 12:38:30"
         },
         {
             "name": "netgusto/webvendor-bundle",

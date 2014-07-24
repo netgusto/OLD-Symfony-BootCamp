@@ -7,4 +7,4 @@ parameters:
         # To override these parameters for your running application, see /data/environment.yml
         
         INITIALIZATION_MODE: TRUE
-        # DATABASE_URL: mysql://root:@127.0.0.1/bootcamp
+        DATABASE_URL: sqlite://%kernel.root_dir%/../data/database.db?absolute

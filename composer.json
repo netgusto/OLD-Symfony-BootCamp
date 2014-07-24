@@ -18,7 +18,7 @@
         "sensio/distribution-bundle": "~3.0",
         "sensio/framework-extra-bundle": "~3.0",
 
-        "netgusto/bootcamp-bundle": "1.0.4"
+        "netgusto/bootcamp-bundle": "1.0.5"
     },
     "require-dev": {
         "sensio/generator-bundle": "~2.3"
@@ -54,8 +54,14 @@
             "dev-master": "2.5-dev"
         },
         "touch-parameters": [
-            "data/parameters.yml",
-            "data/environment.yml"
+            {
+                "src": "app/config/defaults/data.parameters.dist.yml",
+                "dest": "data/parameters.yml"
+            },
+            {
+                "src": "app/config/defaults/data.environment.dist.yml",
+                "dest": "data/environment.yml"
+            }
         ]
     }
 }
