@@ -2,7 +2,9 @@ parameters:
 
     environment.application.defaults:
 
-        # Application defaults parameters
+        # Packaged App environment defaults here
+        # To be modified by the app developer only
+        # To override these parameters for your running application, see /data/environment.yml
         
         INITIALIZATION_MODE: TRUE
         # DATABASE_URL: mysql://root:@127.0.0.1/bootcamp

@@ -1,8 +1,8 @@
 {
-    "name": "symfony/framework-standard-edition",
+    "name": "netgusto/bootcamp",
     "license": "MIT",
     "type": "project",
-    "description": "The \"Symfony Standard Edition\" distribution",
+    "description": "Easy paas/classic platform integration with Symfony2",
     "autoload": {
         "psr-0": { "": "src/", "SymfonyStandard": "app/" }
     },
@@ -18,7 +18,7 @@
         "sensio/distribution-bundle": "~3.0",
         "sensio/framework-extra-bundle": "~3.0",
 
-        "netgusto/bootcamp-bundle": "1.0.3"
+        "netgusto/bootcamp-bundle": "1.0.4"
     },
     "require-dev": {
         "sensio/generator-bundle": "~2.3"
