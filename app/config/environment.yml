@@ -3,5 +3,4 @@ parameters:
     environment.application.defaults:
 
         # Application defaults parameters
-        #DATABASE_URL: mysql://someuser:somepass@host/dbname
         INITIALIZATION_MODE: FALSE

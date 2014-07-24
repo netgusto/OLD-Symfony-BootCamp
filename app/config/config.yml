@@ -1,13 +1,14 @@
 imports:
 
     # BootCamp
-    - { resource: defaults/parameters.application.defaults.yml }
-    - { resource: defaults/environment.application.defaults.yml }
-    - { resource: "@NetgustoBootCampBundle/Resources/config/bootcamp.imports.yml" }
-    # /BootCamp
-
+    - { resource: @NetgustoBootCampBundle/Resources/config/parameters.bootcamp.yml }
     - { resource: parameters.yml }
+    - { resource: environment.yml }
     - { resource: security.yml }
+    - { resource: ../../data/parameters.yml }
+    - { resource: ../../data/environment.yml }
+    - { resource: @NetgustoBootCampBundle/Resources/config/bootcamp.yml }
+    # /BootCamp
 
 framework:
     #esi:             ~

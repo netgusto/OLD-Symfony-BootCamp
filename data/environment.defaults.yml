@@ -1,7 +1,0 @@
-# Variables in this file are overriden by environment variables, if present
-parameters:
-
-    environment.defaults:
-
-        DATABASE_URL: mysql://root:@localhost/bootcamp
-        INITIALIZATION_MODE: FALSE

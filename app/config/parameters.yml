@@ -1,0 +1,26 @@
+parameters:
+
+    # Packaged App parameters here
+    # To be modified by the app developer only
+    # To override these parameters for your running application, see /data/parameters.yml
+
+    mailer_transport:  smtp
+    mailer_host:       127.0.0.1
+    mailer_user:       ~
+    mailer_password:   ~
+
+    locale:            en
+    secret:            ThisTokenIsNotSoSecretChangeIt
+
+    debug_toolbar:          true
+    debug_redirects:        false
+    use_assetic_controller: true
+
+    bootcamp.appname: "HelloBootCamp"
+    bootcamp.appversion: "1.0.0"
+    bootcamp.initconfig.file: "%kernel.root_dir%/config/defaults/config.site.yml"
+    bootcamp.initconfig.class: "Netgusto\HelloBundle\Services\Config\SiteConfigService"
+
+    bootcamp.userinit.enabled: true
+    bootcamp.userinit.class: "Netgusto\HelloBundle\Entity\AppUser"
+    bootcamp.userinit.mapping.username: "email"
