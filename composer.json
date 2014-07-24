@@ -1,5 +1,6 @@
 {
     "name": "netgusto/bootcamp",
+    "version": "1.0.0",
     "license": "MIT",
     "type": "project",
     "description": "Easy paas/classic platform integration with Symfony2",
